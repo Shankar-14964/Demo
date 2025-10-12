@@ -36,6 +36,12 @@ In order to ignore certain files from being tracked by git, you can create a .gi
 In this file, you can list the names or patterns of files and directories that you want Git to ignore.
 
 
+git reset <file_path> unstages a file, moving it from the staging area back to the working directory.
+when you run git reset <file_path>, the changes in that file remain in your working directory, but they are no longer staged for the next commit.
+
+git reset --hard <commit-id> resets the current branch to the specified commit and discards all changes in the working directory and staging area.
+
+git revert <commit-id> creates a new commit that undoes the changes made in the specified commit.
+
 Note:
 If you see a : or (END) at the bottom of the screen: press q
-This will quit the pager.
