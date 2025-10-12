@@ -54,5 +54,9 @@ Diff btwn git clone and git remote add origin:
 git clone is used to create a copy of an existing remote repository on your local machine,
 while git remote add origin is used to add a remote repository to an existing local Git repository.
 
+git branch shows the current branch and lists all branches in the repository.
+
+git checkout <branch_name> switches to the specified branch.
+
 Note:
 If you see a : or (END) at the bottom of the screen: press q
