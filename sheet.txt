@@ -24,10 +24,17 @@ This shows a list of all commits made in the repository along with their message
 git log --oneline 
 git show <commit-id> give details of a specific commit.
 
-git diff shows the differences between the working directory and the staging area. 
-That is, it shows what changes have been made but not yet staged.
+-> git diff shows the differences between the (working directory vs the staging area)
+ 
+Shows lines that were added, modified, or deleted in files since the last git add. cmd (i.e., since last staging)
+
+but git diff --staged shows the differences between the staging area and the last commit.
 
 git blame <file_path> shows who made changes to each line of a file and when.
+
+In order to ignore certain files from being tracked by git, you can create a .gitignore file in the root directory of your repository.
+In this file, you can list the names or patterns of files and directories that you want Git to ignore.
+
 
 Note:
 If you see a : or (END) at the bottom of the screen: press q
