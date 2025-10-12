@@ -44,5 +44,15 @@ git revert <commit-id> creates a new commit that undoes the changes made in the 
 
 git rm --cached <file_path> removes a file from the staging area but keeps it in the working directory.
 
+git clone <repository_url> is used to create a copy of an existing remote repository on your local machine.
+This command creates a new directory with the same name as the repository and initializes a new Git repository in that directory. It also fetches all the files and commit history from the remote repository.
+
+git remote add origin <repository_url> is used to add a remote repository to your local Git repository. 
+This command sets up a connection between your local repository and the remote repository, allowing you to push and pull changes between the two.
+
+Diff btwn git clone and git remote add origin:
+git clone is used to create a copy of an existing remote repository on your local machine,
+while git remote add origin is used to add a remote repository to an existing local Git repository.
+
 Note:
 If you see a : or (END) at the bottom of the screen: press q
