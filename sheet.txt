@@ -25,8 +25,7 @@ git log --oneline
 git show <commit-id> give details of a specific commit.
 
 -> git diff shows the differences between the (working directory vs the staging area)
- 
-Shows lines that were added, modified, or deleted in files since the last git add. cmd (i.e., since last staging)
+shows lines that were added, modified, or deleted in files since the last git add. cmd (i.e., since last staging)
 
 but git diff --staged shows the differences between the staging area and the last commit.
 
@@ -36,14 +35,14 @@ In order to ignore certain files from being tracked by git, you can create a .gi
 In this file, you can list the names or patterns of files and directories that you want Git to ignore.
 
 
-git reset <file_path> unstages a file, moving it from the staging area back to the working directory.
+-> git reset <file_path> unstages a file, moving it from the staging area back to the working directory.
 when you run git reset <file_path>, the changes in that file remain in your working directory, but they are no longer staged for the next commit.
 
-git reset --hard <commit-id> resets the current branch to the specified commit and discards all changes in the working directory and staging area.
+-> git reset --hard <commit-id> resets the current branch to the specified commit and discards all changes in the working directory and staging area.
 
 git revert <commit-id> creates a new commit that undoes the changes made in the specified commit.
 
 git rm --cached <file_path> removes a file from the staging area but keeps it in the working directory.
 
 Note:
-If you see a : or (END) at the bottom of the screen: press q // click q amma rey
+If you see a : or (END) at the bottom of the screen: press q
