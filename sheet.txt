@@ -5,21 +5,29 @@ Above commands set your Git username and email globally.
 git init is used to initialize a new Git repository in the current directory.
 this .git keeps track of all changes made to files in this directory.
 
-but these won't be tracked until you add them to the staging area using git add <filename>
+but these won't be tracked until you add them to the staging area using git add <filename_1> <filename_2> ...
 or git add . to add all files.
 
-git initself doesn't track changes until you explicitly tell it to do so. and this is done using git add command.
+git init itself doesn't track changes until you explicitly tell it to do so. and this is done using git add command.
 
 staging means preparing files to be committed. commit means saving the changes to the local repository.
 
-After staging, you can commit the changes with git commit -m "Your commit message"
+After staging, you can commit the changes with -> git commit -m "Your commit message"
 This saves the changes to the local repository. Here local repository means the .git folder in your project directory.
 
-You can check the status of your files using git status
+You can check the status of your files using -> git status
 to see which files are staged, unstaged, or untracked.
 
-To view the commit history, use git log
+To view the commit history, use -> git log
 This shows a list of all commits made in the repository along with their messages and IDs.
+
+git log --oneline 
+git show <commit-id> give details of a specific commit.
+
+git diff shows the differences between the working directory and the staging area. 
+That is, it shows what changes have been made but not yet staged.
+
+git blame <file_path> shows who made changes to each line of a file and when.
 
 
 Note:
