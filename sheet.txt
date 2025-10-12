@@ -22,3 +22,6 @@ To view the commit history, use git log
 This shows a list of all commits made in the repository along with their messages and IDs.
 
 
+Note:
+If you see a : or (END) at the bottom of the screen: Click Q
+This will quit the pager and return you to the normal terminal prompt.
