@@ -56,6 +56,8 @@ while git remote add origin is used to add a remote repository to an existing lo
 
 git branch shows the current branch and lists all branches in the repository.
 
+git branch <branch_name> creates a new branch with the specified name.
+
 git checkout <branch_name> switches to the specified branch.
 
 Note:
