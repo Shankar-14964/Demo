@@ -29,7 +29,6 @@ That is, it shows what changes have been made but not yet staged.
 
 git blame <file_path> shows who made changes to each line of a file and when.
 
-
 Note:
 If you see a : or (END) at the bottom of the screen: press q
-This will quit the pager and return you to the normal terminal prompt.
+This will quit the pager.
