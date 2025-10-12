@@ -43,5 +43,7 @@ git reset --hard <commit-id> resets the current branch to the specified commit a
 
 git revert <commit-id> creates a new commit that undoes the changes made in the specified commit.
 
+git rm --cached <file_path> removes a file from the staging area but keeps it in the working directory.
+
 Note:
-If you see a : or (END) at the bottom of the screen: press q
+If you see a : or (END) at the bottom of the screen: press q // click q amma rey
