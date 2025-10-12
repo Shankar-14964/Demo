@@ -23,5 +23,5 @@ This shows a list of all commits made in the repository along with their message
 
 
 Note:
-If you see a : or (END) at the bottom of the screen: Click Q
+If you see a : or (END) at the bottom of the screen: press q
 This will quit the pager and return you to the normal terminal prompt.
