@@ -29,20 +29,10 @@ shows lines that were added, modified, or deleted in files since the last git ad
 
 but git diff --staged shows the differences between the staging area and the last commit.
 
-git blame <file_path> shows who made changes to each line of a file and when.
-
 In order to ignore certain files from being tracked by git, you can create a .gitignore file in the root directory of your repository.
 In this file, you can list the names or patterns of files and directories that you want Git to ignore.
 
-
--> git reset <file_path> unstages a file, moving it from the staging area back to the working directory.
-when you run git reset <file_path>, the changes in that file remain in your working directory, but they are no longer staged for the next commit.
-
 -> git reset --hard <commit-id> resets the current branch to the specified commit and discards all changes in the working directory and staging area.
-
-git revert <commit-id> creates a new commit that undoes the changes made in the specified commit.
-
-git rm --cached <file_path> removes a file from the staging area but keeps it in the working directory.
 
 git clone <repository_url> is used to create a copy of an existing remote repository on your local machine.
 This command creates a new directory with the same name as the repository and initializes a new Git repository in that directory. It also fetches all the files and commit history from the remote repository.
