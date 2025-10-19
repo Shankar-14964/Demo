@@ -1,1 +1,6 @@
-say Hello from local branch
+if you create branch in local repo, it won't be reflected in remote repo until you push it using -> git push origin <branch_name>
+or git push -u origin <branch_name> (the -u flag sets the upstream tracking for the branch)
+
+still these changes are not related to main/origin branch until you create a pull request and merge them.
+
+pull request can be made or those branches can be merged in local and pushed changes to remote repo.
